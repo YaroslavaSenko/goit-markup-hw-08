@@ -6,3 +6,19 @@ section {
 .business {
     padding-top: 0;
 }
+
+.business {
+    padding-top: 0;
+}
+@media screen and (max-width: 1199px) {
+    section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }  
+}
+@media screen and (max-width: 768px){
+    section {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    } 
+}
