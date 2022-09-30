@@ -1,10 +1,10 @@
 
 @media screen and (max-width: 767px) {
     .footer__section {
-        display: flex;
-        flex-direction: column;
-        gap: 60px;
-        align-items: center;
+        // display: flex;
+        // flex-direction: column;
+        // gap: 60px;
+        // align-items: center;
     }
     .footer__form {
         display: flex;
@@ -12,15 +12,15 @@
         gap: 20px;
     }
     .footer-form {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+        // display: flex;
+        // flex-direction: column;
+        // gap: 20px;
     }
     .footer__main {
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        margin-bottom: 60px;
     }
     .footer-contacts {
         display: flex;
@@ -35,18 +35,20 @@
         flex-direction: column;
         align-items: center;
         margin-left: 0;
+        margin-bottom: 60px;
     }
     .footer__form {
-        display: flex;
-        flex-direction: column;
-        align-items: center; 
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center; 
     }
     .footer-form__button {
         margin-left: auto;
         margin-right: auto;
     }
     .footer-form__input {
-        width: 450px;
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
 @media screen and (min-width: 768px) {
@@ -65,9 +67,9 @@
      
    
     .footer-form {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+        // display: flex;
+        // flex-direction: column;
+        // gap: 20px;
     }
     .footer__main {
         display: flex;
@@ -101,12 +103,22 @@
     }
     .footer-form__input {
         width: 450px;
+        margin-bottom: 20px;
     }
 }
 @media screen and (min-width: 1200px) {
     .footer__section {
         display: flex;
         align-items: baseline;
+    }
+    .footer__main {
+        
+        align-items: flex-start;
+
+    }
+    .footer-contacts {
+        
+        align-items: flex-start;
     }
     .footer-form {
         display: flex;
